@@ -1,0 +1,166 @@
+<!DOCTYPE html><html lang="es-CL"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Atmósferas emocionales en el cine</title>
+<style>
+:root{--bg:#f3f5fa;--pn:#fff;--tx:#10162a;--mu:#38425c;--ac:#ffd166;--onac:#1b1400;--fo:#0b5cad;--bd:#8a95b0;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1420;--pn:#1a2133;--tx:#f5f7fb;--mu:#c3cbdc;--fo:#7dd3fc;--bd:#5a6785}}
+:root[data-theme="dark"]{--bg:#0f1420;--pn:#1a2133;--tx:#f5f7fb;--mu:#c3cbdc;--fo:#7dd3fc;--bd:#5a6785}
+*{box-sizing:border-box}html{font-size:20px;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--tx);font:1rem/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.w{max-width:1200px;margin:0 auto;padding:1rem}h1{font-size:1.6rem;margin:.2rem 0}h2{font-size:1.25rem;margin:.2rem 0 .6rem}h3{font-size:1.1rem;margin:.6rem 0 .3rem}
+.mu{color:var(--mu)}.steps{display:flex;gap:.5rem;list-style:none;padding:0;margin:.8rem 0;flex-wrap:wrap}
+.steps li{padding:.3rem .9rem;border:2px solid var(--bd);border-radius:2rem;color:var(--mu)}
+.steps li[aria-current=step]{background:var(--ac);color:var(--onac);border-color:var(--ac);font-weight:700}
+main{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:1rem;align-items:start}
+@media(max-width:900px){main{grid-template-columns:1fr}}
+.card{background:var(--pn);border:2px solid var(--bd);border-radius:1rem;padding:1rem}.st{position:sticky;top:.5rem;z-index:2}
+svg{display:block;width:100%;height:auto;border-radius:.6rem;background:#000;isolation:isolate}
+button{font:inherit;min-height:52px;padding:.4rem 1.1rem;border-radius:.7rem;border:2px solid var(--bd);background:var(--pn);color:var(--tx);cursor:pointer}
+button.p{background:var(--ac);color:var(--onac);border-color:var(--ac);font-weight:700}button:disabled{opacity:.55;cursor:not-allowed}
+:focus-visible{outline:4px solid var(--fo);outline-offset:3px}
+textarea{width:100%;min-height:7rem;font:inherit;padding:.6rem;background:var(--bg);color:var(--tx);border:2px solid var(--bd);border-radius:.7rem}
+.ctl{margin:0 0 1rem;border:0;padding:0}label,legend{font-weight:700}input[type=range]{width:100%;height:2rem;accent-color:var(--fo)}
+.ends{display:flex;justify-content:space-between;color:var(--mu);font-size:.85rem}output{font-weight:400}
+label.r{display:inline-flex;align-items:center;gap:.4rem;padding:.35rem .7rem;border:2px solid var(--bd);border-radius:.7rem;margin:.2rem .3rem .2rem 0;font-weight:400}
+label.r input{width:1.2rem;height:1.2rem;accent-color:var(--fo)}
+.bar{height:.9rem;background:var(--bd);border-radius:1rem;overflow:hidden;margin:.15rem 0 .5rem}.bar i{display:block;height:100%;background:var(--ac)}
+#hint{border-left:6px solid var(--ac);background:var(--pn);padding:.7rem 1rem;margin-top:1rem;border-radius:.4rem}
+.tb{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1rem}blockquote{margin:.3rem 0 1rem;padding:.5rem 1rem;border-left:5px solid var(--ac);background:var(--bg)}
+h2:focus{outline:none}ul{padding-left:1.2rem;margin:.3rem 0}
+</style></head><body><div class="w">
+<header><h1>Atmósferas emocionales en el cine</h1><p class="mu">Historia: <b>una persona espera a alguien que no llega.</b> Descubre cómo la luz y el color cambian lo que sentimos.</p>
+<ol class="steps" aria-label="Pasos"><li aria-current="step">1. Predice</li><li>2. Explora</li><li>3. Explica</li></ol></header>
+<main>
+<section class="card st" aria-label="Escena"><svg id="stage" viewBox="0 0 800 450" role="img" aria-label="Escena nocturna">
+<defs>
+<linearGradient id="sk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#070b18"/><stop offset=".6" stop-color="#16213c"/><stop offset="1" stop-color="#4a3f55"/></linearGradient>
+<linearGradient id="sw" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#23262e"/><stop offset="1" stop-color="#3d414b"/></linearGradient>
+<linearGradient id="g_skin" gradientUnits="userSpaceOnUse"><stop/><stop offset="1"/></linearGradient>
+<linearGradient id="g_jacket" gradientUnits="userSpaceOnUse"><stop/><stop offset="1"/></linearGradient>
+<linearGradient id="g_pants" gradientUnits="userSpaceOnUse"><stop/><stop offset="1"/></linearGradient>
+<linearGradient id="g_hair" gradientUnits="userSpaceOnUse"><stop/><stop offset="1"/></linearGradient>
+<radialGradient id="lg" gradientUnits="userSpaceOnUse"><stop offset="0"/><stop offset=".3"/><stop offset=".5"/><stop offset="1" stop-opacity="0"/></radialGradient>
+<radialGradient id="vg" cx=".5" cy=".5" r=".75"><stop offset=".4" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000"/></radialGradient>
+<filter id="bs" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="4"/></filter>
+<filter id="hb" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+<filter id="gr"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+<g id="sil"><ellipse cx="471" cy="180" rx="19" ry="23"/><path d="M430 216Q470 200 510 216L516 290 500 300 498 330 492 392 476 392 470 340 464 392 448 392 442 330 440 300 424 296Z"/></g>
+</defs>
+<rect width="800" height="300" fill="url(#sk)"/><g id="bg"></g>
+<rect y="300" width="800" height="100" fill="url(#sw)"/><rect y="398" width="800" height="4" fill="#5a606c"/><rect y="402" width="800" height="48" fill="#0f1115"/>
+<path d="M0 330H800M0 360H800M0 385H800M120 300L60 400M300 300L270 400M480 300V400M660 300L690 400M800 300L860 400" stroke="#fff" stroke-opacity=".06" fill="none"/>
+<circle cx="105" cy="262" r="10" fill="#ff2a2a" opacity=".3" filter="url(#hb)"/><rect x="103" y="262" width="4" height="138" fill="#1a1d24"/><circle cx="105" cy="262" r="3" fill="#ff7a6a"/>
+<ellipse cx="105" cy="428" rx="8" ry="22" fill="#ff3a3a" opacity=".2" filter="url(#hb)"/><ellipse cx="260" cy="430" rx="7" ry="20" fill="#ffb868" opacity=".18" filter="url(#hb)"/><ellipse cx="380" cy="426" rx="6" ry="18" fill="#ffc888" opacity=".15" filter="url(#hb)"/>
+<rect x="500" y="168" width="240" height="12" fill="#20242c"/><rect x="516" y="180" width="8" height="212" fill="#2a2f39"/><rect x="726" y="180" width="8" height="212" fill="#2a2f39"/>
+<rect x="524" y="180" width="202" height="212" fill="#8cb4d2" opacity=".1"/>
+<rect x="620" y="205" width="96" height="140" fill="#bcd0e6" opacity=".85" stroke="#2a2f39" stroke-width="4"/><rect x="630" y="215" width="76" height="60" fill="#6f8db0" opacity=".7"/><rect x="630" y="285" width="76" height="8" fill="#8aa4c4"/><rect x="630" y="300" width="50" height="8" fill="#8aa4c4"/>
+<rect x="530" y="352" width="82" height="7" fill="#3a3f4a"/><rect x="536" y="359" width="5" height="33" fill="#2a2f39"/><rect x="600" y="359" width="5" height="33" fill="#2a2f39"/>
+<rect x="771" y="230" width="5" height="162" fill="#2a2f39"/><rect x="752" y="196" width="44" height="34" rx="3" fill="#1d6fd1"/><text x="774" y="217" text-anchor="middle" font-size="10" font-weight="700" fill="#fff" font-family="sans-serif">PARADA</text>
+<use href="#sil" transform="translate(0 784) scale(1 -1)" fill="#000" opacity=".3" filter="url(#hb)"/>
+<use id="shd" href="#sil" fill="#000" filter="url(#bs)"/>
+<use id="halo" href="#sil" fill="#fff" filter="url(#hb)" opacity="0"/>
+<g id="per">
+<path d="M440 220L432 300" stroke="url(#g_jacket)" stroke-width="13" stroke-linecap="round" fill="none"/>
+<path d="M456 330L454 388M484 330L486 388" stroke="url(#g_pants)" stroke-width="21" fill="none"/>
+<ellipse cx="451" cy="391" rx="14" ry="5" fill="#0b0b0e"/><ellipse cx="489" cy="391" rx="14" ry="5" fill="#0b0b0e"/>
+<path d="M430 216Q470 200 510 216L514 296 498 300 497 336 443 336 442 300 426 296Z" fill="url(#g_jacket)"/>
+<path d="M500 222L514 280 488 262" stroke="url(#g_jacket)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<rect x="478" y="246" width="14" height="24" rx="2" fill="#cfe6ff" transform="rotate(-20 485 258)"/><circle cx="487" cy="263" r="6" fill="url(#g_skin)"/>
+<rect x="464" y="198" width="14" height="14" fill="url(#g_skin)"/><ellipse cx="471" cy="180" rx="16" ry="20" fill="url(#g_skin)"/>
+<path d="M453 182Q448 154 472 155 495 156 490 184 482 168 468 168 458 168 453 182Z" fill="url(#g_hair)"/>
+</g>
+<rect id="amb" width="800" height="450" style="mix-blend-mode:multiply"/>
+<rect id="glow" width="800" height="450" fill="url(#lg)" style="mix-blend-mode:screen"/>
+<rect id="haze" width="800" height="450" style="mix-blend-mode:screen"/>
+<rect id="vig" width="800" height="450" fill="url(#vg)"/>
+<rect width="800" height="450" filter="url(#gr)" opacity=".16" style="mix-blend-mode:overlay"/>
+</svg></section>
+<section class="card" aria-label="Actividad">
+<div id="s1"><h2 tabindex="-1">Paso 1: ¿Qué crees que pasará?</h2>
+<p>Antes de mover nada, escribe una <b>predicción</b>: ¿cómo crees que la luz y el color pueden hacer que sintamos que esa persona está esperando con miedo, con rabia, con ternura…?</p>
+<label for="p1">Mi predicción</label><textarea id="p1" aria-describedby="c1" placeholder="Creo que si la luz es ___, la escena se va a sentir ___ porque ___"></textarea>
+<p id="c1" class="mu">Escribe al menos 15 letras.</p><button class="p" id="to2" disabled>Listo, quiero explorar</button></div>
+<div id="s2" hidden><h2 tabindex="-1">Paso 2: Explora moviendo los controles</h2>
+<p class="mu">Mueve cada control y mira la escena. Abajo aparece qué emoción podría sentir el público.</p><div id="ctl"></div>
+<div id="res" aria-live="polite"></div><p id="prog" class="mu"></p><button class="p" id="to3" disabled>Ya exploré, quiero explicar</button></div>
+<div id="s3" hidden><h2 tabindex="-1">Paso 3: Cuéntalo con tus palabras</h2>
+<p>¿Qué observaste? ¿Qué cambió en la escena y en lo que sentiste? ¿Se cumplió tu predicción?</p>
+<label for="p3">Mi explicación</label><textarea id="p3" aria-describedby="c3" placeholder="Cuando cambié ___, la escena se sintió ___ porque ___"></textarea>
+<p id="c3" class="mu">Escribe al menos 25 letras.</p><div class="tb"><button id="back2">Volver a explorar</button><button class="p" id="fin" disabled>Terminar</button></div></div>
+<div id="s4" hidden><h2 tabindex="-1">¡Buen trabajo, detective de la luz!</h2>
+<p><b>Tu predicción:</b></p><blockquote id="o1"></blockquote><p><b>Tu explicación:</b></p><blockquote id="o2"></blockquote>
+<p>Compáralas: ¿se cumplió lo que pensabas? ¿Qué te sorprendió? ¿Qué cambiarías para lograr otra emoción?</p><button class="p" id="back3">Seguir explorando</button></div>
+<div id="hint" role="status" hidden></div>
+<div class="tb"><button id="bh">💡 Pista</button><button id="rs">↺ Reiniciar</button></div>
+</section></main></div>
+<script>
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)],L=(a,b,t)=>a+(b-a)*t,mx=(a,b,t)=>a.map((x,i)=>Math.round(L(x,b[i],t))),rg=c=>`rgb(${c.join()})`;
+const ramp=(t,C)=>{const n=C.length-1,p=t*n,i=Math.min(n-1,p|0);return mx(C[i],C[i+1],p-i)};
+const LC=[[120,170,255],[255,246,235],[255,150,60]],AC=[[6,14,36],[14,14,22],[34,14,4]];
+const B={skin:[205,160,135],jacket:[84,104,122],pants:[48,52,66],hair:[46,36,30]};
+const D={izq:[-1,-.25,-60,150],der:[1,-.25,860,150],arr:[0,-1,470,-120],aba:[0,1,470,560],atr:[0,0,470,230]};
+const SH={izq:'skewX(-60) scale(1 .55)',der:'skewX(60) scale(1 .55)',arr:'scale(1 .14)',aba:'scale(1.7)',atr:'scale(1 -.4)'};
+const DN={izq:'Desde la izquierda',der:'Desde la derecha',arr:'Desde arriba',aba:'Desde abajo',atr:'Desde atrás (contraluz)'};
+const WORDS={t:['muy fría','fría','neutra','cálida','muy cálida'],s:['casi gris','apagada','normal','viva','muy intensa'],i:['casi apagada','tenue','media','fuerte','muy fuerte'],q:['muy dura','dura','mixta','suave','muy suave'],c:['muy bajo','bajo','medio','alto','muy alto']};
+const NM={t:'Temperatura del color',s:'Saturación',i:'Intensidad de la luz',d:'Dirección de la luz',q:'Calidad de la luz',c:'Contraste'},KEYS=['t','s','i','d','q','c'];
+const CT=[['t','Temperatura del color','Fría','Cálida'],['s','Saturación (qué tan vivos son los colores)','Apagados','Muy vivos'],['i','Intensidad de la luz','Tenue','Fuerte'],['q','Calidad de la luz','Dura (sombras filosas)','Suave (sombras difusas)'],['c','Contraste','Bajo (todo parejo)','Alto (muy claro y muy oscuro)']];
+const WH={t:['La luz fría, azulada, se siente lejana, solitaria o peligrosa.','La luz cálida, anaranjada, se siente cercana y acogedora, pero también puede sentirse como enojo.'],s:['Con colores apagados todo parece triste o vacío.','Con colores muy intensos las emociones se sienten más fuertes.'],i:['Con poca luz se esconden cosas, y eso da misterio o miedo.','Con mucha luz se ve todo claro y la escena se siente más abierta.'],q:['La luz dura marca sombras con bordes filosos y se siente tensa.','La luz suave hace sombras difusas y se siente delicada.'],c:['Con poco contraste todo se ve parejo y tranquilo.','Con mucho contraste hay zonas muy claras y muy oscuras, y se siente dramático.']};
+const WD={izq:'La luz de lado deja media cara en sombra: la persona parece dudar.',der:'La luz de lado deja media cara en sombra: la persona parece dudar.',arr:'La luz desde arriba oscurece los ojos y la hace ver cansada o dura.',aba:'La luz desde abajo deforma la cara, como en las películas de terror.',atr:'El contraluz esconde la cara: no sabemos qué siente, y eso da misterio.'};
+const E=[['Miedo',.15,.25,.12,.08,.9,{aba:.3,atr:.25,arr:.1},'La persona teme que a quien espera le haya pasado algo malo, o que algo malo esté por pasar.','Podrías sentir el estómago apretado y ganas de mirar hacia atrás.'],
+['Rabia',.95,.95,.75,.1,.85,{izq:.1,der:.1},'La persona está furiosa: esperó demasiado y siente que la dejaron plantada.','Podrías sentir calor, tensión en el cuerpo y ganas de reclamar.'],
+['Asco',.55,.2,.35,.2,.35,{arr:.3},'El lugar se ve sucio y desagradable, y esperar ahí se vuelve incómodo.','Podrías sentir ganas de arrugar la nariz y de irte.'],
+['Alegría',.8,.8,.9,.85,.35,{arr:.2,izq:.1,der:.1},'La persona está feliz y confía en que quien espera ya viene en camino.','Podrías sentir ganas de sonreír y mucha energía.'],
+['Ansiedad',.35,.5,.4,.15,.7,{arr:.3,izq:.1,der:.1},'La persona está inquieta: mira la hora, piensa mil cosas y no puede quedarse tranquila.','Podrías sentir el corazón más rápido y no poder relajarte.'],
+['Ternura',.75,.45,.55,.95,.15,{izq:.15,der:.15},'La espera es cariñosa: a la persona le importa mucho quien viene.','Podrías sentir calorcito y ganas de abrazar.'],
+['Tristeza',.1,.1,.3,.8,.25,{aba:.05},'La persona ya sospecha que no van a llegar y se siente decepcionada.','Podrías sentir un nudo en la garganta o ganas de llorar un poquito.'],
+['Soledad',.2,.25,.2,.6,.45,{atr:.15,izq:.1,der:.1},'La persona está muy sola en la calle: el mundo sigue, pero nadie la acompaña.','Podrías sentir vacío, silencio y ganas de acompañarla.'],
+['Esperanza',.7,.55,.6,.7,.4,{atr:.2,izq:.1,der:.1},'Aunque se demora, la persona todavía cree que va a llegar.','Podrías sentir calma con un poquito de ilusión.'],
+['Calma',.5,.35,.5,.85,.2,{},'La persona espera tranquila, sin apuro, como si todo fuera a estar bien.','Podrías sentir ganas de respirar profundo.']];
+const v={t:50,s:50,i:55,q:50,c:50,d:'izq'};let st=1,hi=0,tm,moved=new Set();
+let r=7;const rnd=()=>(r=r*16807%2147483647)/2147483647;let bd='',x=0;
+while(x<800){const w=50+rnd()*70,h=70+rnd()*150,y=300-h;bd+=`<rect x="${x|0}" y="${y|0}" width="${w|0}" height="${h|0}" fill="rgb(${14+rnd()*8|0},${18+rnd()*8|0},${28+rnd()*10|0})"/>`;
+for(let wx=x+8;wx<x+w-12;wx+=16)for(let wy=y+10;wy<276;wy+=20)if(rnd()<.22)bd+=`<rect x="${wx|0}" y="${wy|0}" width="8" height="11" fill="rgb(255,${190+rnd()*40|0},${110+rnd()*50|0})" opacity="${(.45+rnd()*.5).toFixed(2)}"/>`;x+=w+rnd()*6}
+$('#bg').innerHTML=bd;
+const W=(k,a)=>a[Math.min(4,v[k]/20|0)];
+const DIR=`<fieldset class="ctl"><legend>Dirección de la luz</legend>${Object.keys(DN).map(k=>`<label class="r"><input type="radio" name="d" value="${k}"${k===v.d?' checked':''}> ${DN[k]}</label>`).join('')}</fieldset>`;
+$('#ctl').innerHTML=CT.map(([k,n,a,b])=>(k==='q'?DIR:'')+`<div class="ctl"><label for="r_${k}">${n}: <output id="o_${k}"></output></label><input id="r_${k}" data-k="${k}" type="range" min="0" max="100" value="${v[k]}" aria-describedby="e_${k}"><div class="ends" id="e_${k}"><span>${a}</span><span>${b}</span></div></div>`).join('');
+const sa=(e,o)=>{for(const k in o)e.setAttribute(k,o[k])};
+function render(){const t=v.t/100,s=v.s/100,i=v.i/100,q=v.q/100,c=v.c/100,d=D[v.d];
+const lc=ramp(t,LC),g=(lc[0]+lc[1]+lc[2])/3,lcs=lc.map(z=>Math.round(L(g,z,.4+s*.6))),am=ramp(t,AC);
+$('#stage').style.filter=`saturate(${L(0,2.1,s).toFixed(2)}) contrast(${L(.7,1.55,c).toFixed(2)}) brightness(${L(.9,1.1,i).toFixed(2)})`;
+sa($('#amb'),{fill:rg(am),opacity:L(.7,.05,i)});
+const lg=$('#lg'),sp=lg.children,m=L(.45,.05,q),wd=L(.1,.6,q),al=.95;
+sa(lg,{cx:d[2],cy:d[3],r:L(420,760,q)});
+[[0,al],[m,al*.85],[Math.min(.95,m+wd),al*.12]].forEach(([o,a],k)=>sa(sp[k],{offset:o.toFixed(2),'stop-color':rg(lcs),'stop-opacity':a.toFixed(2)}));
+sa(sp[3],{'stop-color':rg(lcs)});
+$('#glow').setAttribute('opacity',L(.1,.85,i));
+sa($('#haze'),{fill:rg(lcs),opacity:(q*(.04+i*.14)).toFixed(3)});$('#vig').setAttribute('opacity',L(.15,.85,c));
+const R=L(40,170,q);
+for(const k in B){const b=B[k],lit=mx(b.map(z=>Math.min(255,z*L(1,1.7,i))),lcs,L(.2,.6,i)*(.5+s*.5)),sh=mx(b.map(z=>z*L(.5,.07,c)*L(.8,1.3,i)),am,.25),G=$('#g_'+k),n=G.children,f=v.d==='atr';
+sa(G,{x1:470+d[0]*R,y1:275+d[1]*R,x2:470-d[0]*R,y2:275-d[1]*R});
+sa(n[0],{'stop-color':rg(f?sh:lit)});sa(n[1],{'stop-color':rg(sh)})}
+$('#bs feGaussianBlur').setAttribute('stdDeviation',L(.6,12,q).toFixed(1));
+sa($('#shd'),{transform:`translate(470 392) ${SH[v.d]} translate(-470 -392)`,opacity:(L(.25,.75,c)*(.35+i*.65)).toFixed(2)});
+sa($('#halo'),{fill:rg(lcs),opacity:v.d==='atr'?(.3+.7*i).toFixed(2):0,transform:'translate(470 275) scale(1.05) translate(-470 -275)'});
+['t','s','i','q','c'].forEach(k=>{const w=W(k,WORDS[k]);$('#o_'+k).textContent=w;$('#r_'+k).setAttribute('aria-valuetext',w)});
+$('#stage').setAttribute('aria-label',`Escena nocturna: una persona espera en un paradero mirando su teléfono. Luz ${W('t',WORDS.t)}, intensidad ${W('i',WORDS.i)}, ${DN[v.d].toLowerCase()}, calidad ${W('q',WORDS.q)}, contraste ${W('c',WORDS.c)}.`)}
+function showRes(){const p=[v.t,v.s,v.i,v.q,v.c].map(z=>z/100),sc=E.map(e=>{let d=0;for(let k=0;k<5;k++)d+=Math.abs(p[k]-e[1+k]);return[e,Math.min(1,Math.max(0,1-1.3*d/5)*.88+(e[6][v.d]||0)*.4)]}).sort((a,b)=>b[1]-a[1]),tp=sc.slice(0,3),e=tp[0][0],pc=Math.round(tp[0][1]*100);
+const ds=[['t',Math.abs(p[0]-.5),p[0]>.5?1:0],['s',Math.abs(p[1]-.5),p[1]>.5?1:0],['i',Math.abs(p[2]-.5),p[2]>.5?1:0],['q',Math.abs(p[3]-.5),p[3]>.5?1:0],['c',Math.abs(p[4]-.5),p[4]>.5?1:0],['d',.4]].sort((a,b)=>b[1]-a[1]).slice(0,3).filter(z=>z[1]>.12);
+const why=ds.map(([k,,h])=>k==='d'?WD[v.d]:WH[k][h]);
+$('#res').innerHTML=`<h3>Atmósfera que predomina: ${e[0]}</h3>${pc<50?'<p>Es una mezcla: ninguna emoción destaca mucho.</p>':''}<p><b>Interpretación:</b> ${e[7]}</p><p><b>Sensaciones del espectador:</b> ${e[8]}</p>
+<h3>Emociones posibles</h3>${tp.map(([z,s])=>`<div><b>${z[0]}</b>: ${Math.round(s*100)} %<div class="bar" aria-hidden="true"><i style="width:${Math.round(s*100)}%"></i></div></div>`).join('')}
+<p><b>También podría leerse como ${tp[1][0][0].toLowerCase()}:</b> ${tp[1][0][7]}</p><h3>¿Por qué se siente así?</h3><ul>${(why.length?why:['Todo está en un punto medio, por eso la atmósfera se siente neutra.']).map(z=>`<li>${z}</li>`).join('')}</ul>`}
+function touch(k){moved.add(k);render();clearTimeout(tm);tm=setTimeout(showRes,350);$('#prog').textContent=`Controles que ya probaste: ${moved.size} de 6`;$('#to3').disabled=moved.size<4}
+$('#ctl').addEventListener('input',e=>{const k=e.target.dataset.k;if(k){v[k]=+e.target.value;touch(k)}});
+$('#ctl').addEventListener('change',e=>{if(e.target.name==='d'){v.d=e.target.value;touch('d')}});
+function go(n){st=n;[1,2,3,4].forEach(k=>$('#s'+k).hidden=k!==n);$$('.steps li').forEach((li,k)=>k+1===Math.min(n,3)?li.setAttribute('aria-current','step'):li.removeAttribute('aria-current'));$('#hint').hidden=true;hi=0;$('#s'+n+' h2').focus()}
+function hint(){let a;if(st==1)a=['Piensa en una película donde alguien espera. ¿La escena era oscura o clara? ¿Colores fríos o cálidos? ¿Qué sentías?','Puedes empezar así: «Creo que si la luz es ___, la escena se va a sentir ___ porque ___».','Elige una emoción (miedo, ternura, rabia, tristeza…) e imagina cómo sería la luz para lograrla.'];
+else if(st==2){const f=KEYS.filter(k=>!moved.has(k));a=[f.length?`Todavía no mueves «${NM[f[0]]}». Llévalo de un extremo al otro y mira qué cambia.`:'Prueba combinar poca luz con contraste alto. ¿Qué emoción aparece?','Fíjate en la cara de la persona: ¿se ve completa, escondida o con media cara en sombra?','Desafío: ¿puedes lograr que la escena se sienta como ternura? ¿Y como miedo? ¿Qué cambiaste?']}
+else a=['Empieza así: «Cuando cambié ___, la escena se sintió ___ porque ___».','Cuenta si tu predicción se cumplió y qué te sorprendió.','Usa palabras como luz, color, sombra, contraste y emoción.'];
+const h=$('#hint');h.hidden=false;h.textContent='💡 '+a[hi++%a.length]}
+$('#p1').addEventListener('input',e=>$('#to2').disabled=e.target.value.trim().length<15);
+$('#p3').addEventListener('input',e=>$('#fin').disabled=e.target.value.trim().length<25);
+$('#to2').onclick=()=>{go(2);showRes()};$('#to3').onclick=()=>go(3);$('#back2').onclick=()=>go(2);$('#back3').onclick=()=>go(2);$('#bh').onclick=hint;
+$('#fin').onclick=()=>{$('#o1').textContent=$('#p1').value;$('#o2').textContent=$('#p3').value;go(4)};
+$('#rs').onclick=()=>{Object.assign(v,{t:50,s:50,i:55,q:50,c:50,d:'izq'});moved.clear();$('#p1').value=$('#p3').value='';$('#to2').disabled=$('#fin').disabled=$('#to3').disabled=true;
+$$('#ctl input[type=range]').forEach(e=>e.value=v[e.dataset.k]);$$('input[name=d]').forEach(e=>e.checked=e.value==='izq');$('#prog').textContent='';render();showRes();go(1)};
+render();showRes();
+</script></body></html>
